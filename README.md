@@ -4,7 +4,7 @@
 
 **Desenvolvedor de Software** · formado em Análise e Desenvolvimento de Sistemas
 
-[**Ver o site ao vivo →**](https://yurisilvaaa.github.io/Portf-lio-Pessoal/)
+[**Ver o site ao vivo →**](https://yurisilvaaa.github.io/)
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
@@ -47,8 +47,8 @@ Um site pessoal no formato de currículo: direto ao ponto, com quem eu sou, por 
 ## Como rodar localmente
 
 ```bash
-git clone https://github.com/YuriSilvaaa/Portf-lio-Pessoal.git
-cd Portf-lio-Pessoal
+git clone https://github.com/YuriSilvaaa/YuriSilvaaa.github.io.git
+cd YuriSilvaaa.github.io
 ```
 
 Depois abra o `index.html` no navegador, ou use a extensão **Live Server** do VS Code para ver as mudanças em tempo real.
