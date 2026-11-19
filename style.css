@@ -449,6 +449,3 @@ h2{
   letter-spacing:1.5px;
   color:var(--accent);
 }
-
-/* certificados: lista sem coluna de datas */
-.timeline-plain .entry{grid-template-columns:minmax(0,1fr);}
