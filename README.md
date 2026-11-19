@@ -29,7 +29,7 @@ Um site pessoal no formato de currículo: direto ao ponto, com quem eu sou, por 
 | --- | --- |
 | **Sobre** | Apresentação rápida e botão para baixar o currículo em PDF |
 | **Trajetória** | Formação, experiência na Energisa, portfólio e idiomas |
-| **Cursos** | Certificados do IFRS em HTML5, CSS3 e JavaScript, com visualização na própria página |
+| **Certificados** | Cursos do IFRS em HTML5, CSS3 e JavaScript, com visualização na própria página |
 | **Projetos** | Projetos publicados |
 | **Habilidades** | O que eu já uso e o que estou estudando agora |
 | **Contato** | Formulário que envia a mensagem direto para o meu e-mail, além de GitHub e LinkedIn |
