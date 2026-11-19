@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yuri Teixeira — Desenvolvedor de Software</title>
+<meta name="description" content="Yuri da Silva Teixeira, desenvolvedor de software. Formação, experiência, cursos e projetos.">
+<meta name="theme-color" content="#0a0e17">
+<meta property="og:title" content="Yuri Teixeira — Desenvolvedor de Software">
+<meta property="og:description" content="Formação, experiência, cursos e projetos de Yuri da Silva Teixeira.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230a0e17'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' font-weight='700' text-anchor='middle' fill='%235cc8ff'%3EYT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip" href="#sobre">Pular para o conteúdo</a>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<div class="glow" id="glow" aria-hidden="true"></div>
+
+<div class="layout">
+
+  <aside class="toc" aria-label="Seções">
+    <a class="toc-name" href="#sobre">yuri<span>.</span>teixeira</a>
+    <nav>
+      <a href="#sobre" class="toc-link" data-target="sobre">Sobre</a>
+      <a href="#trajetoria" class="toc-link" data-target="trajetoria">Trajetória</a>
+      <a href="#cursos" class="toc-link" data-target="cursos">Cursos</a>
+      <a href="#projetos" class="toc-link" data-target="projetos">Projetos</a>
+      <a href="#stack" class="toc-link" data-target="stack">Habilidades</a>
+      <a href="#contato" class="toc-link" data-target="contato">Contato</a>
+    </nav>
+
+  </aside>
+
+  <main class="content">
+
+    <!-- SOBRE -->
+    <section id="sobre" class="about">
+      <figure class="photo">
+        <img src="foto.jpg" alt="Foto de Yuri Teixeira" width="400" height="500"
+             onerror="this.parentElement.classList.add('no-photo'); this.remove();">
+        <span class="photo-fallback" aria-hidden="true">YT</span>
+      </figure>
+
+      <div class="about-text">
+        <p class="eyebrow">Software Developer</p>
+        <h1>Oi, eu sou o <em>Yuri</em>.</h1>
+        <p class="lead">
+          Desenvolvedor de software.
+          Tenho experiência em ambiente corporativo, com suporte a sistemas, infraestrutura de TI e processos administrativos e financeiros.
+        </p>
+        <p>
+          Estou focado em aprender linguagens.
+        </p>
+        <div class="actions">
+          <a class="btn btn-primary" href="curriculo.pdf" download>Baixar currículo</a>
+          <a class="btn btn-ghost" href="#contato">Falar comigo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRAJETÓRIA -->
+    <section id="trajetoria">
+      <h2><span class="tag">Trajetória</span>Do começo até aqui</h2>
+
+      <ol class="timeline">
+        <li class="entry reveal">
+          <span class="entry-label">Formação</span>
+          <div>
+            <h3>Tecnólogo em Análise e Desenvolvimento de Sistemas</h3>
+            <p class="meta">Doctum · formado</p>
+            <p>Base em lógica de programação e manipulação de dados, com Python, C, C++ e SQL.</p>
+          </div>
+        </li>
+
+        <li class="entry reveal">
+          <span class="entry-label">Experiência</span>
+          <div>
+            <h3>Jovem Aprendiz</h3>
+            <p class="meta">Energisa · Cataguases, MG</p>
+            <p>Apoio ao sistema da empresa e à infraestrutura técnica do setor, gerenciamento de planilhas e organização de atividades em grupo. Contribuí em processos financeiros e de vendas e participei de apresentações de projetos internos para gestores.</p>
+          </div>
+        </li>
+
+        <li class="entry reveal">
+          <span class="entry-label">Agora</span>
+          <div>
+            <h3>Portfólio profissional</h3>
+            <p class="meta">Este site</p>
+            <p>Interface web autoral para mostrar minhas competências, feita com HTML5, CSS3 e JavaScript, com Flexbox e Grid para garantir responsividade.</p>
+          </div>
+        </li>
+
+        <li class="entry reveal">
+          <span class="entry-label">Idiomas</span>
+          <div>
+            <h3>Inglês avançado</h3>
+            <p class="meta">Leitura técnica e conversação</p>
+            <p>Leio documentação técnica e converso em inglês com fluência.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- CURSOS -->
+    <section id="cursos">
+      <h2><span class="tag">Cursos</span>Certificados de 2026</h2>
+
+      <ol class="timeline">
+        <li class="entry reveal">
+          <span class="entry-label">Abr 2026</span>
+          <div>
+            <h3>HTML5: Fundamentos para Construção de Páginas Web Modernas</h3>
+            <p class="meta">IFRS · 40 h · aproveitamento de 100%</p>
+            <p>Estruturação de sites com HTML5, imagens e links, listas, tabelas e formulários.</p>
+            <a class="cert-link" href="certificados/html5.jpg" data-cert="certificados/html5.jpg" target="_blank" rel="noopener">Ver certificado</a>
+          </div>
+        </li>
+
+        <li class="entry reveal">
+          <span class="entry-label">Abr 2026</span>
+          <div>
+            <h3>CSS3: Estilizando Páginas Web com Estilo</h3>
+            <p class="meta">IFRS · 40 h · aproveitamento de 97,5%</p>
+            <p>Seletores, textos, cores e fundos, posicionamento, margens e preenchimentos, e efeitos visuais.</p>
+            <a class="cert-link" href="certificados/css3.jpg" data-cert="certificados/css3.jpg" target="_blank" rel="noopener">Ver certificado</a>
+          </div>
+        </li>
+
+        <li class="entry reveal">
+          <span class="entry-label">Mai 2026</span>
+          <div>
+            <h3>JavaScript: Fundamentos para Desenvolvimento Web Interativo</h3>
+            <p class="meta">IFRS · 40 h · aproveitamento de 100%</p>
+            <p>Sintaxe básica, funções e escopo, manipulação do DOM e eventos, formulários e validação de dados.</p>
+            <a class="cert-link" href="certificados/javascript.jpg" data-cert="certificados/javascript.jpg" target="_blank" rel="noopener">Ver certificado</a>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos">
+      <h2><span class="tag">Projetos</span>O que eu construí</h2>
+
+      <ul class="posts">
+        <li class="reveal">
+          <a href="https://yurisilvaaa.github.io/Portfolio/" class="post" target="_blank" rel="noopener">
+            <div>
+              <h3>Portfólio profissional</h3>
+              <p>Interface web autoral para expor minhas competências técnicas, com layout responsivo em Flexbox e Grid.</p>
+              <div class="chips"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+            </div>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="stack">
+      <h2><span class="tag">Habilidades</span>Com o que eu trabalho</h2>
+
+      <div class="stack reveal">
+        <div>
+          <h3>Lógica e dados · intermediário</h3>
+          <ul class="pills">
+            <li>Python</li><li>C</li><li>C++</li><li>SQL</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Desenvolvimento web</h3>
+          <ul class="pills">
+            <li>HTML5</li><li>CSS3</li><li>JavaScript</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Infraestrutura e sistemas</h3>
+          <ul class="pills">
+            <li>Suporte de TI</li><li>Manutenção de hardware</li><li>Suporte a sistemas ERP</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Estudando agora</h3>
+          <ul class="pills pills-dim">
+            <li>TypeScript</li><li>Python</li><li>Java</li><li>CSS Grid</li><li>Flexbox</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato">
+      <h2><span class="tag">Contato</span>Vamos conversar?</h2>
+      <p class="contact-lead reveal">Quer trocar uma ideia ou falar de oportunidades? Mande uma mensagem pelo formulário, que chega direto no meu e-mail, ou use os canais abaixo.</p>
+
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <div class="field">
+          <label for="cfName">Nome</label>
+          <input id="cfName" name="name" type="text" autocomplete="name" required maxlength="80">
+        </div>
+        <div class="field">
+          <label for="cfEmail">Seu e-mail</label>
+          <input id="cfEmail" name="email" type="email" autocomplete="email" required maxlength="120">
+        </div>
+        <div class="field field-wide">
+          <label for="cfMessage">Mensagem</label>
+          <textarea id="cfMessage" name="message" rows="5" required maxlength="2000"></textarea>
+        </div>
+        <!-- campo escondido contra spam: pessoas não preenchem -->
+        <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="form-foot">
+          <button type="submit" class="btn btn-primary" id="cfSubmit">Enviar mensagem</button>
+          <p class="form-status" id="cfStatus" role="status" aria-live="polite"></p>
+        </div>
+      </form>
+
+      <ul class="links reveal">
+        <li class="mail-row">
+          <a href="mailto:yurisilvakta84@gmail.com"><span id="mailText">yurisilvakta84@gmail.com</span><span class="arrow">↗</span></a>
+          <button type="button" class="copy" id="copyMail">Copiar</button>
+        </li>
+        <li><a href="https://github.com/YuriSilvaaa" target="_blank" rel="noopener"><span>GitHub</span><span class="arrow">↗</span></a></li>
+        <li><a href="https://www.linkedin.com/in/yuri-teixeiradev" target="_blank" rel="noopener"><span>LinkedIn</span><span class="arrow">↗</span></a></li>
+      </ul>
+    </section>
+
+
+  </main>
+</div>
+
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Certificado">
+  <button type="button" class="lb-close" id="lbClose" aria-label="Fechar">Fechar ✕</button>
+  <img id="lbImg" alt="Certificado de conclusão de curso">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
