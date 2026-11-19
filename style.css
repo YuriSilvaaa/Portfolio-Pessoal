@@ -449,3 +449,6 @@ h2{
   letter-spacing:1.5px;
   color:var(--accent);
 }
+
+/* cursos: sem a coluna de datas */
+#cursos.no-labels .entry{grid-template-columns:minmax(0,1fr);}
